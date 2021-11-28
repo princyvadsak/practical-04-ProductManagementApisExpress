@@ -2,60 +2,61 @@
  
 ## Created By Vadsak Princy Hareshbhai  On 27 november 2021
 
-SCHEMA:
+### SCHEMA:
 
 
-<------ PRODUCT ------>
-product id : String
-title : String
-price : String
-category : Array of String
-company id : String
-seller id : Array of String
+#### <------ PRODUCT ------>
+* product id : String
+* title : String
+* price : String
+* category : Array of String
+* company id : String
+* seller id : Array of String
 
 
-<------ COMPANY ------>
-company id : String
-name : String
-product ids : Array of String
+#### <------ COMPANY ------>
+
+* company id : String
+* name : String
+* product ids : Array of String
 
 
-<------ SELLER ------>
+#### <------ SELLER ------>
 
-seller id : String
-name : String
-product ids : Array of String
-
-
-POST REQUESTS:
+* seller id : String
+* name : String
+* product ids : Array of String
 
 
-<------ ADD ------>
-add new company
-add new seller
-add new product
+### POST REQUESTS:
 
 
-<------ RETRIEVE ------>
-fetch company details based on product name
-fetch seller details based on product name
-fetch all products of a company
-fetch all products of a seller
+#### <------ ADD ------>
+* add new company
+* add new seller
+* add new product
 
 
-<------ UPDATE ------>
-update company (add/remove products)
-update seller (add/remove products)
-update product (add/remove category)
+#### <------ RETRIEVE ------>
+* fetch company details based on product name
+* fetch seller details based on product name
+* fetch all products of a company
+* fetch all products of a seller
 
 
-<------ DELETE ------>
-delete company
-delete seller
-delete product
+#### <------ UPDATE ------>
+* update company (add/remove products)
+* update seller (add/remove products)
+* update product (add/remove category)
 
 
-Instruction:
-Use Express Router
+#### <------ DELETE ------>
+* delete company
+* delete seller
+* delete product
+
+
+#### Instruction:
+* Use Express Router
 
 
